@@ -15,6 +15,7 @@ La interfaz de pago fue pensada para un público que usa e-commerce.
 - Ingeso completo de la información de las tarjetas (Número de tarjeta, Fecha de Vencimiento, Codigo de seguridad)
 - Validacion de tarjeta (Si el numero de la tarjeta es válida o no)
 - Oculta todos los dígitos de la tarjeta menos los 4 últimos, como protección de seguridad.
+- Identifica si la tarjeta es Visa o Mastercard
 
 
 ## UX
@@ -48,7 +49,7 @@ Esta página está diseñada con los coloes que se acercan a los de la marca.
 ## Usuarios
 Los usuarios de esta página de verificación de tarjetas son los clientes de la marca.
 Cuando los usuarios que desean comprar alguno de los productos ofrecidos, se les llevará a esta página para terminar la transacción. 
-
+Los usuarios podran completar la transacción de manera segura.
 Los usuarios se encontrarán con las funciones para protección de sus datos.
 
 # Solución
@@ -59,16 +60,18 @@ El uso de Maskify y verificacion de tarjeta no solo dan mayor seguridad a las ac
 En este proyecto prioricé el funcionamiento del algoritmo de Luhn. 
 Me centré en crear una estructura básica de HTML y ha realizar un algoritmo que cumpliera con las pruebas necesarias. 
 Al principio me encontré con muchas fallas en mi algoritmo hasta que estudié el algoritmo por si solo y realicé un mapa lógico de como debería funcionar.
-Una vez con ese mapa se pudo crearr tareas más pequeñas y pruebas unitarias de cada linea de codigo. 
+Una vez con ese mapa pude lograr una visión más general y ordenada de mi proyecto y la lógica necesaria y así crear tareas más pequeñas y pruebas unitarias de cada linea de codigo. 
 
-Una vez que el algoritmofuncionaba se continuó con el maskify. 
+Una vez que el algoritmo de verificación funcionaba se continuó con el maskify. 
 
 Cuando se logró enmascarar los digitos de la tarjeta, se pasó al siguiente nivel. 
+Se logró crear selectores de opciones con la ayuda de bucles e instrucciones dentro del javascript. 
 
 El UX y el diseño de la página fue lo último que se realizó, con el uso de CSS, utilizandop estilos, grid y más.
 
-Cuando todo estuvo finalizado se hicieron algunas pruebas de funcionalidad. 
+Cuando todo estuvo finalizado se hicieron algunas pruebas de funcionalidad.
+Cuando el feedback sobre funcionalidad y diseño se pudieron hacer mejoras al diseño general de la maquetación de la página y al aspecto visual con ayuda del CSS.
 
-
-De igual manera se seguirá intentando con los objetivos del Hacker Edittion. 
+De igual manera se seguirá intentando con los objetivos del Hacker Edittion.
+Se logró hacer unas pruebas con switch, pero no se logró implementar todas las marcas de tarjetas necesarias.  
 
