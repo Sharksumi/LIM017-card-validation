@@ -34,14 +34,14 @@ return numerosOcultos;
 },
 
 getIssuer: function (creditCardNumber){
-  switch (creditCardNumber[0]) {
-    case "4":
-    return "visa"
-
-    case "5":
-      return "MasterCard"
+  if (creditCardNumber[0]==4) {
+    return "visa";
+  }else if (creditCardNumber[0]==5){
+      return "mastercard";
+    }
+    else if (creditCardNumber[0]==3){
+      return "amex"
+    }
   }
-  }
-
-};
+  };
 export default validator;

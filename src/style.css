@@ -9,7 +9,7 @@ header{
     height: auto;
     display: grid;
     grid-template-areas: 'logo logo'
-                          'menu menu';
+                         'menu menu';
     grid-template-rows: auto auto;
     }
 
